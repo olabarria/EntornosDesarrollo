@@ -15,6 +15,13 @@ class Autor {
         this.nacimiento=pnacimiento;
         this.libro=plibro;
     }
+    public Autor(int pcodigoAutor,String pnombre,String papellido1 ,String papellido2 ,String psinopsis,int pnacimiento){
+        this.codigoAutor=pcodigoAutor;
+        this.nombre=pnombre;
+        this.apellido1=papellido1;
+        this.apellido2=papellido2;
+        this.nacimiento=pnacimiento;
+    }
 
 
     public int getcodigoAutor(){
